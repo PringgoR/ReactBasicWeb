@@ -1,0 +1,14 @@
+.JoinUsButton {
+    font-size: 10pt;
+    color: rgb(71, 70, 70);
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.JoinUsButtonCount {
+    background-color: rgb(44, 43, 43);
+    color: white;
+    align-self: center;
+}
+
