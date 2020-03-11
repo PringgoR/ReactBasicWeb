@@ -1,28 +1,24 @@
 import React from 'react';
-/*import logo from './logo.svg';*/
 import './App.css';
 import NavBar from './Components/navbar';
-import HeaderBox from './Components/Headerbox';
+import HeaderBox from './Organisms/Headerbox';
 import NextMeetUp from './Components/NextMeetUp';
-import AwesomeMeet from './Components/AwesomeMeet';
+import AwesomeMeet from './Molecules/AwesomeMeet';
 import AboutMeetUp from './Components/AboutMeetUp';
-import ComeMeet from './Components/ComeMeet';
+import ComeMeet from './Molecules/ComeMeet';
 import Members from './Components/Members';
-import Organizers from './Components/Organizers';
+import Organizers from './Molecules/Organizers';
 import PastMeetUps from './Components/PastMeetUps';
-import Dates from './Components/Dates';
+import Dates from './Molecules/Dates';
 import Copyright from './Components/Copyright';
-import JoinUsButtonCount from './Atoms/Button-JoinUs';
-/*import HeaderBox from './Components/Headerbox'; Auto generated */
-/*import NavBar from "./navbar.jsx"; */
-
+// import StarWars from './Molecules/StarWars';
 
 function App() {
   return (
     <div> 
       <NavBar></NavBar>
-      <JoinUsButtonCount></JoinUsButtonCount>
       <HeaderBox></HeaderBox>
+      {/* <Hacktiv8Meetup></Hacktiv8Meetup> */}
       <NextMeetUp></NextMeetUp>
       <AwesomeMeet></AwesomeMeet>
       <AboutMeetUp></AboutMeetUp>
@@ -31,6 +27,7 @@ function App() {
       <Organizers></Organizers>
       <PastMeetUps></PastMeetUps>
       <Dates></Dates>
+      {/* <StarWars></StarWars> //Turn off Starwars display */}
       <Copyright></Copyright>
       </div>
         );
