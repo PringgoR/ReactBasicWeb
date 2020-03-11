@@ -1,7 +1,17 @@
 import React from 'react';
-import './style.css';
 
-class JoinUsButtonCount extends React.Component {
+
+class JoinUsButton extends React.Component {
+    render() {
+    return (
+        <div className="Atoms-JoinUsButton">
+        <button className="Atoms-JoinUsButton">Join Us</button>
+        </div>
+    );
+    }
+}
+
+/*class JoinUsButton extends React.Component {
     constructor() {
         super()
         this.state = {
@@ -44,6 +54,6 @@ class JoinUsButtonCount extends React.Component {
             </div>
         );
     }
-}
+} */
 
-export default JoinUsButtonCount;
+export default JoinUsButton;

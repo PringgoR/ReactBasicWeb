@@ -1,0 +1,18 @@
+.headerbox {
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    clear: both;  
+  }
+
+.boxHeader {
+    margin: 20px;
+    padding: 30px;
+    padding-bottom: 80px;
+    background-color: lightgrey;
+    color:black;
+  }
+  
+  
